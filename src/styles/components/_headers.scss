@@ -1,0 +1,27 @@
+.headers {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-auto-rows: 79px;
+  grid-auto-flow: row dense;
+    .poki-btn {
+      font-size: 1.5rem;
+      font-weight: 500;
+      cursor: pointer;
+      display: inline-block;
+      line-height: normal;
+      padding: 1.3rem 1rem;
+      margin: 16px 50px -12px;
+      height: auto;
+      border: 1px solid #fff;
+      color: #34196e;
+      background-color: #fff;
+      border-radius: 14px;
+      width: 100px;
+    }
+    .games-btn {
+      width: 370px;
+    }
+    .gallery {
+      margin-top: -54px !important;
+    }
+}
